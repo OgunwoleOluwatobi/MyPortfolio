@@ -9,7 +9,7 @@
     .btn-line{
         width: 20px;
         height: 3px;
-        margin: 0 0 5px 0;
+        margin-bottom: 2px;
         background: set-text-color($primary-color);
         @include easeOut;
     }
@@ -19,13 +19,13 @@
 
         .btn-line{
             &:nth-child(1){
-                transform: rotate(45deg) translate(5px, 4.5px);
+                transform: rotate(45deg) translate(3px, 5px);
             }
             &:nth-child(2){
                 opacity: 0;
             }
             &:nth-child(3){
-                transform: rotate(-45deg) translate(6.8px, -6px);
+                transform: rotate(-45deg) translate(3px, -3.5px);
             }
         }
     }
